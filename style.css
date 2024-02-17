@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+.navbar-default {
+    background-color: #7b7a7a; 
+    border-color: black; 
+    border-radius: 0; 
+    padding: 15px;
+}
+
+.navbar-default .navbar-header {
+    padding: 0 15px; 
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.page-heading {
+    padding: 10px 0; 
+    margin-bottom: 30px; 
+    color: black;
+}
+
+.food-section {
+    background-color: #7b7a7a; 
+    padding: 20px;
+    margin: 30px auto; 
+    border: 1px solid #ccc; 
+}
+
+.food-section h2 {
+    color: black; 
+    text-align: center;
+}
+.food-section p {
+    padding: 0 15px; 
+    font-size: 2rem;
+    color: black;
+}
+
+.tall-section {
+    height: 1000px; 
+    background-color: #fff; 
+}
+
+.container-fluid, .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-toggle {
+    border: 1px solid black; 
+    /* background-color: white;  */
+    margin-right: 0; 
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: black; 
+  }
+  #navbar-mobile-menu {
+    width: 100%; 
+    background-color: white; 
+  }
+  #navbar-mobile-menu .navbar-nav a {
+    color: black;
+  }
+  #navbar-mobile-menu .navbar-nav a:hover {
+    color: white;
+    background-color: #333;
+  }
+  .page-heading {
+    padding: 5px 0; 
+    margin-bottom: 20px;
+    color: black;
+}
+  .food-section {
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+    margin: 0; 
+    padding: 15px 0; 
+  }
+  .container-fluid, .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  .container.food-section {
+    margin: 20px 30px; 
+    padding: 15px;
+  }
+  .navbar-default {
+    border: none;
+  }
+  .navbar-default .navbar-nav a {
+    color: black; 
+    padding: 10px 15px; 
+    display: block; 
+    text-align: center; 
+    border-top: 1px solid black; 
+    color:black;
+  }
+
+  .navbar-default .navbar-nav > li:first-child > a {
+    border-top: none;
+  }
+}
+.navbar-default .navbar-brand {
+    color: black; 
+    padding-left: 15px; 
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+}
